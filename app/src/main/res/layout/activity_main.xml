@@ -33,7 +33,7 @@
                 android:padding="15dp"
                 android:text="Ravens"
                 android:textColor="#FFF"
-                android:textSize="14sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/ravens_score"
@@ -103,7 +103,7 @@
                 android:padding="15dp"
                 android:text="Texans"
                 android:textColor="#FFF"
-                android:textSize="14sp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/texans_score"
