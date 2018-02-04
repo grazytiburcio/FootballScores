@@ -7,8 +7,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.android.footballscores.R;
-
 
 public class MainActivity extends AppCompatActivity {
     // Tracks the score for Ravens
