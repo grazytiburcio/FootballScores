@@ -31,7 +31,7 @@
                     android:gravity="center"
                     android:padding="15dp"
                     android:text="Ravens"
-                    android:textColor="#FFF"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <TextView
@@ -42,7 +42,7 @@
                     android:gravity="center"
                     android:padding="4dp"
                     android:text="0"
-                    android:textColor="#FFF"
+                    android:textColor="#FFFFFF"
                     android:textSize="56sp" />
 
                 <Button
@@ -101,7 +101,7 @@
                     android:gravity="center"
                     android:padding="15dp"
                     android:text="Texans"
-                    android:textColor="#FFF"
+                    android:textColor="#FFFFFF"
                     android:textSize="20sp" />
 
                 <TextView
@@ -112,7 +112,7 @@
                     android:gravity="center"
                     android:padding="4dp"
                     android:text="0"
-                    android:textColor="#FFF"
+                    android:textColor="#FFFFFF"
                     android:textSize="56sp" />
 
                 <Button
@@ -161,4 +161,3 @@
 
     </RelativeLayout>
 </ScrollView>
-
