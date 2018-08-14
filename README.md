@@ -1,7 +1,7 @@
 # ScoreKeeperApp
 Score Keeper App (Project 2) made with Udacity. This project is part of Android Basics by Google - Nanodegree Program.
 
-Project Overview: The goal is to create an Score Keeper app which gives a user the ability to keep track of the score of two different teams playing a game of your choice.
+Project Overview: The goal is to create an Score Keeper app which gives a user the ability to keep track of the score of two different teams playing a game.
 
 This project is about combining various ideas and skills we’ve been practicing throughout the course. They include:
 
