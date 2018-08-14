@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/american_football">
+    android:background="@drawable/football_background">
 
-    <RelativeLayout
+<RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:context="com.example.android.footballscores.MainActivity">
+        tools:context="com.example.android.scorekeeperapp.MainActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -16,135 +16,147 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/width_LinearLayout"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="@dimen/weight_LinearLayout"
                 android:orientation="vertical"
                 tools:context=".MainActivity">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginTop="16dp"
-                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="@dimen/marginBottom_TextView"
+                    android:layout_marginTop="@dimen/marginTop_TextView"
+                    android:fontFamily="@string/fontFamily_sans_serif_medium"
                     android:gravity="center"
-                    android:padding="15dp"
-                    android:text="Ravens"
-                    android:textColor="#FFFFFF"
-                    android:textSize="20sp" />
+                    android:padding="@dimen/padding_TextView"
+                    android:text="@string/ravens"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/textSize_TextView" />
 
                 <TextView
                     android:id="@+id/ravens_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="@string/fontFamily_sans_serif_light"
                     android:gravity="center"
-                    android:padding="4dp"
-                    android:text="0"
-                    android:textColor="#FFFFFF"
-                    android:textSize="56sp" />
+                    android:padding="@dimen/padding_TextView_score"
+                    android:text="@string/_0"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/textSize_TextView_score" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="@dimen/marginBottom_Button_points"
+                    android:layout_marginEnd="@dimen/marginEnd_Button_points"
+                    android:layout_marginLeft="@dimen/marginLeft_Button_points"
+                    android:layout_marginRight="@dimen/marginRight_Button_points"
+                    android:layout_marginStart="@dimen/marginStart_Button_points"
+                    android:layout_marginTop="@dimen/marginTop_Button_points"
                     android:onClick="addSixForRavens"
-                    android:text="TOUCHDOWN"
-                    android:textColor="#000000" />
+                    android:text="@string/touchdown"
+                    android:textColor="@color/colorAccent" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marginBottom_Button_points"
+                    android:layout_marginEnd="@dimen/marginEnd_Button_points"
+                    android:layout_marginLeft="@dimen/marginLeft_Button_points"
+                    android:layout_marginRight="@dimen/marginRight_Button_points"
+                    android:layout_marginStart="@dimen/marginStart_Button_points"
                     android:onClick="addThreeForRavens"
-                    android:text="FIELD GOAL"
-                    android:textColor="#000000" />
+                    android:text="@string/field_goal"
+                    android:textColor="@color/colorAccent" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marginBottom_Button_points"
+                    android:layout_marginEnd="@dimen/marginEnd_Button_points"
+                    android:layout_marginLeft="@dimen/marginLeft_Button_points"
+                    android:layout_marginRight="@dimen/marginRight_Button_points"
+                    android:layout_marginStart="@dimen/marginStart_Button_points"
                     android:onClick="addTwoForRavens"
-                    android:text="SAFETY"
-                    android:textColor="#000000" />
+                    android:text="@string/safety"
+                    android:textColor="@color/colorAccent" />
 
             </LinearLayout>
 
             <View
                 android:id="@+id/line"
-                android:layout_width="1dp"
+                android:layout_width="@dimen/width_View_line"
                 android:layout_height="match_parent"
-                android:layout_marginTop="16dp"
-                android:background="@android:color/darker_gray" />
+                android:layout_marginTop="@dimen/marginTop_View_line"
+                android:background="@android:color/white" />
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="@dimen/width_LinearLayout"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_weight="@dimen/weight_LinearLayout"
                 android:orientation="vertical"
                 tools:context=".MainActivity">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginTop="16dp"
-                    android:fontFamily="sans-serif-medium"
+                    android:layout_marginBottom="@dimen/marginBottom_TextView"
+                    android:layout_marginTop="@dimen/marginTop_TextView"
+                    android:fontFamily="@string/fontFamily_sans_serif_medium"
                     android:gravity="center"
-                    android:padding="15dp"
-                    android:text="Texans"
-                    android:textColor="#FFFFFF"
-                    android:textSize="20sp" />
+                    android:padding="@dimen/padding_TextView"
+                    android:text="@string/texans"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/textSize_TextView" />
 
                 <TextView
                     android:id="@+id/texans_score"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="sans-serif-light"
+                    android:fontFamily="@string/fontFamily_sans_serif_light"
                     android:gravity="center"
-                    android:padding="4dp"
-                    android:text="0"
-                    android:textColor="#FFFFFF"
-                    android:textSize="56sp" />
+                    android:padding="@dimen/padding_TextView_score"
+                    android:text="@string/_0"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/textSize_TextView_score" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
-                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="@dimen/marginBottom_Button_points"
+                    android:layout_marginEnd="@dimen/marginEnd_Button_points"
+                    android:layout_marginLeft="@dimen/marginLeft_Button_points"
+                    android:layout_marginRight="@dimen/marginRight_Button_points"
+                    android:layout_marginStart="@dimen/marginStart_Button_points"
+                    android:layout_marginTop="@dimen/marginTop_Button_points"
                     android:onClick="addSixForTexans"
-                    android:text="TOUCHDOWN"
-                    android:textColor="#000000" />
+                    android:text="@string/touchdown"
+                    android:textColor="@color/colorAccent" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marginBottom_Button_points"
+                    android:layout_marginEnd="@dimen/marginEnd_Button_points"
+                    android:layout_marginLeft="@dimen/marginLeft_Button_points"
+                    android:layout_marginRight="@dimen/marginRight_Button_points"
+                    android:layout_marginStart="@dimen/marginStart_Button_points"
                     android:onClick="addThreeForTexans"
-                    android:text="FIELD GOAL"
-                    android:textColor="#000000" />
+                    android:text="@string/field_goal"
+                    android:textColor="@color/colorAccent" />
 
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="24dp"
-                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="@dimen/marginBottom_Button_points"
+                    android:layout_marginEnd="@dimen/marginEnd_Button_points"
+                    android:layout_marginLeft="@dimen/marginLeft_Button_points"
+                    android:layout_marginRight="@dimen/marginRight_Button_points"
+                    android:layout_marginStart="@dimen/marginStart_Button_points"
                     android:onClick="addTwoForTexans"
-                    android:text="SAFETY"
-                    android:textColor="#000000" />
+                    android:text="@string/safety"
+                    android:textColor="@color/colorAccent" />
 
             </LinearLayout>
         </LinearLayout>
@@ -152,12 +164,11 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="450dp"
+            android:layout_marginTop="@dimen/marginTop_Button_reset"
             android:onClick="resetScore"
-            android:text="RESET"
-            android:textColor="#000000" />
+            android:text="@string/reset"
+            android:textColor="@color/colorAccent" />
 
     </RelativeLayout>
 </ScrollView>

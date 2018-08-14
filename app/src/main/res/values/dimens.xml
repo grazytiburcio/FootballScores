@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Width for LinearLayout -->
+    <dimen name="width_LinearLayout">0dp</dimen>
+    <!-- Weight for LinearLayout -->
+    <dimen name="weight_LinearLayout">1</dimen>
+    <!-- Margin bottom for Ravens and Texans TextView -->
+    <dimen name="marginBottom_TextView">16dp</dimen>
+    <!-- Margin top for Ravens and Texans TextView -->
+    <dimen name="marginTop_TextView">16dp</dimen>
+    <!-- Padding for Ravens and Texans TextView -->
+    <dimen name="padding_TextView">15dp</dimen>
+    <!-- TextSize for Ravens and Texans TextView -->
+    <dimen name="textSize_TextView">20sp</dimen>
+    <!-- TextSize for Ravens and Texans score TextView -->
+    <dimen name="textSize_TextView_score">56sp</dimen>
+    <!-- Padding for Ravens and Texans score TextView -->
+    <dimen name="padding_TextView_score">4dp</dimen>
+    <!-- Margin bottom for all Button points -->
+    <dimen name="marginBottom_Button_points">8dp</dimen>
+    <!-- Margin left for all Button points -->
+    <dimen name="marginLeft_Button_points">24dp</dimen>
+    <!-- Margin start for all Button points -->
+    <dimen name="marginStart_Button_points">24dp</dimen>
+    <!-- Margin right for all Button points -->
+    <dimen name="marginRight_Button_points">24dp</dimen>
+    <!-- Margin end for all Button points -->
+    <dimen name="marginEnd_Button_points">24dp</dimen>
+    <!-- Margin top for all Button points -->
+    <dimen name="marginTop_Button_points">24dp</dimen>
+    <!-- Margin top for reset Button -->
+    <dimen name="marginTop_Button_reset">450dp</dimen>
+    <!-- Width for line View -->
+    <dimen name="width_View_line">1dp</dimen>
+    <!-- Margin top for line View -->
+    <dimen name="marginTop_View_line">16dp</dimen>
+</resources>

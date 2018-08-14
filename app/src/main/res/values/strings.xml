@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Football Scores</string>
+    <!-- Name for the application -->
+    <string name="app_name">Score Keeper App</string>
+    <!-- Label for team on the left -->
+    <string name="ravens">Ravens</string>
+    <!-- Label for team on the right -->
+    <string name="texans">Texans</string>
+    <!-- Default value for score -->
+    <string name="_0">0</string>
+    <!-- Label for the plus 6 points button -->
+    <string name="touchdown">TOUCHDOWN</string>
+    <!-- Label for the plus 3 points button -->
+    <string name="field_goal">FIELD GOAL</string>
+    <!-- Label for the plus 2 points button -->
+    <string name="safety">SAFETY</string>
+    <!-- Label for the reset button -->
+    <string name="reset">RESET</string>
+    <!-- Font family for Ravens and Texans TextView -->
+    <string name="fontFamily_sans_serif_medium">sans-serif-medium</string>
+    <!-- Font family for score TextView -->
+    <string name="fontFamily_sans_serif_light">sans-serif-light</string>
 </resources>
